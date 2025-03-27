@@ -54,6 +54,11 @@ node index.js
 
 ![2025-03-27_14-47-07](https://github.com/user-attachments/assets/c5511862-c936-4f48-9a3d-2b5f93fbce33)
 
+![GMGN-Degen-Everyday (18)](https://github.com/user-attachments/assets/732b2d8c-2ad0-45d8-b10c-93995cf11089)
+
+https://github.com/user-attachments/assets/8bfbcefd-284d-4376-925f-f1fd96dfa70a
+
+
 
 https://github.com/user-attachments/assets/fa08c9af-3115-4209-a323-454c5fb7a528
 
