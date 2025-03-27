@@ -1,2 +1,119 @@
-# Raydium-pumpswap-sniper-bot-using-jito
-Raydium pumpswap sniper bot using jito bundle, Raydium pumpswap sniper bot, Raydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap sniper botRaydium pumpswap sniper bot Raydium pumpswap sniper bot Raydium pumpswap bot
+# Raydium PumpSwap Sniper Bot using Jito on Solana with Telegram
+
+## 🚀 Overview
+The **Raydium PumpSwap Sniper Bot** is a high-speed, automated trading bot designed for sniping newly launched tokens on **Raydium**. It leverages **Jito's MEV infrastructure** for faster transaction execution and integrates with **Telegram** for seamless user interaction. This bot allows traders to automatically detect and buy tokens at launch, maximizing their chances of securing profitable entries.
+
+## 🔥 Features
+- **Jito-Powered MEV Transactions**: Faster and more efficient execution to front-run standard transactions.
+- **Raydium Sniping**: Instantly buys newly launched tokens on Raydium.
+- **Pump & Swap Strategy**: Snipes tokens and automatically swaps them based on configured profit targets.
+- **Real-Time Alerts**: Notifies users via Telegram when a token is sniped or swapped.
+- **Customizable Trading Parameters**: Allows users to set buy amounts, slippage, take profit (TP), and stop loss (SL).
+- **Multi-Wallet Support**: Enables multiple wallets for diversified sniping.
+- **WebSocket & gRPC Integration**: Uses real-time Solana data for fast and accurate execution.
+- **Anti-Rug & Token Blacklist**: Prevents sniping scam tokens.
+- **Gas Optimization**: Efficient transaction handling to minimize costs.
+
+## 🛠️ Tech Stack
+- **Blockchain**: Solana
+- **Exchange**: Raydium, Pumpswap
+- **MEV Infrastructure**: Jito
+- **Programming Language**: Node.js
+- **Database**: MongoDB (for storing trades and settings)
+- **APIs & WebSockets**: ConstantNode gRPC, Solana RPC
+- **Messaging Interface**: Telegram Bot API
+
+## 📌 Installation
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/cryptoking110600/Raydium-pumpswap-sniper-bot-using-jito.git
+cd Raydium-pumpswap-sniper-bot-using-jito
+```
+
+### 2️⃣ Install Dependencies
+```sh
+npm install   # If using Node.js
+```
+
+### 3️⃣ Set Up Environment Variables
+Create a `.env` file in the root directory and add the required credentials:
+```ini
+SOLANA_RPC_URL=<YOUR_SOLANA_RPC_URL>
+JITO_MEVAUTH=<YOUR_JITO_AUTH_KEY>
+TELEGRAM_BOT_TOKEN=<YOUR_TELEGRAM_BOT_TOKEN>
+OWNER_CHAT_ID=<YOUR_TELEGRAM_CHAT_ID>
+...
+```
+
+### 4️⃣ Run the Bot
+For Node.js:
+```sh
+node index.js
+```
+![2025-03-19_14-49-00](https://github.com/user-attachments/assets/b25a9ad4-05dd-49ec-add0-f3b89801d28f)
+
+![2025-03-27_14-47-07](https://github.com/user-attachments/assets/c5511862-c936-4f48-9a3d-2b5f93fbce33)
+
+
+https://github.com/user-attachments/assets/fa08c9af-3115-4209-a323-454c5fb7a528
+
+
+Here's a **Usage Guide** for your **Solana Pump.fun & Raydium Sniper Bot** based on the provided Telegram bot interface.
+
+---
+
+## 🔥 **Getting Started**
+1. **Start the Bot:**  
+   - Use the `/start` command to launch the bot and enable trading.
+
+2. **Check Your Balance:**  
+   - Use `/getbalance` to see your current SOL balance.
+
+3. **Withdraw Funds:**  
+   - Use `/withdraw` to move funds from the bot wallet to your personal wallet.
+
+---
+
+## ⚡ **Key Features**
+✅ **Real-time Token Migration Detection** – Identifies and snipes tokens migrating to Raydium.  
+📊 **Live Price & Liquidity Tracking** – Monitors market conditions before executing trades.  
+🤖 **Automated Buying & Selling** – Snipes newly launched tokens with pre-configured rules.  
+📈 **Position Monitoring** – Tracks your portfolio and token positions in real-time.  
+⚡ **Instant Trade Execution** – Uses Jito MEV for faster transactions and better fills.  
+
+---
+
+## 🎛 **Bot Commands**
+| Command | Description |
+|---------|-------------|
+| `/start` | Launch the bot and enable trading. |
+| `/withdraw` | Withdraw funds from your wallet. |
+| `/getbalance` | Check your current SOL balance. |
+
+---
+
+## 🎯 **Trading Controls**
+- **Auto Trading:** Toggle automatic trading **On/Off**.
+- **Auto Sell Off:** Enables/disables automatic selling of sniped tokens.
+- **Sell Token:** Manually sell a token from your portfolio.
+- **Buy Token:** Manually snipe a new token.
+- **Withdraw Funds:** Move your funds out when needed.
+
+---
+
+## 📌 **Portfolio Management**
+Click **"View Wallet Position"** to track your token holdings and open positions in real time.
+
+---
+
+## ⚠️ **Disclaimer**
+This bot is for **educational and research purposes only**. Cryptocurrency trading is risky, and past performance is not a guarantee of future results. **Use at your own risk.**
+
+---
+
+## 🤝 Contributions
+Pull requests are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a PR.
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
