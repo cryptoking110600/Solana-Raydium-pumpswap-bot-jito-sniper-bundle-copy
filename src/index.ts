@@ -55,11 +55,12 @@ bot.onText(/\/start/, async (msg) => {
       balance / 10 ** 9 +
       " SOL" +
       "\n\n" +
-      "💸 You can buy and sell tokens with this bot.\n\n" +
-      "💸 You can also check your balance and token details.\n\n" +
-      "💸 You can also add a new token to your wallet.\n\n" +
-      "💸 You can also remove a token from your wallet.\n\n" +
-      "💸 You can also check your balance and token details.\n\n"
+      "🔄 Available commands:\n\n" +
+      "• Buy and sell tokens\n" + 
+      "• Check your token and SOL balances\n" +
+      "• Add new tokens to track\n" +
+      "• Remove tokens you no longer want to track\n\n" +
+      "Use the buttons below to get started! 👇"
   );
 });
 
@@ -353,6 +354,7 @@ async function sellCrypto(token: string, amount: number) {
   });
   //   await connection.confirmTransaction(signature, "finalized");
 }
+
 
 async function getTokenBalance(wallet: PublicKey, mint: PublicKey) {
   const ata = await getAssociatedTokenAddress(mint, wallet);
