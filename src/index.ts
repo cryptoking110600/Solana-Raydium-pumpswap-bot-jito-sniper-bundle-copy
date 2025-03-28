@@ -42,7 +42,25 @@ bot.onText(/\/start/, async (msg) => {
     token_balance: 0,
     step: "awaiting_wallet",
   };
-  bot.sendMessage(userId, "Welcome! Set token address:");
+  bot.sendMessage(
+    userId,
+    "👋 Welcome to the Solana Token Buy/Sell Bot!\n\n" +
+      "To get started, please enter the token address you want to trade.\n\n" +
+      "ℹ️ You can find token addresses on sites like Solscan or SolanaFM.\n\n" +
+      "💡 Note: This bot is for educational purposes only. Use at your own risk!\n\n" +
+      "🔑 Your wallet address: " +
+      wallet.publicKey.toString() +
+      "\n\n" +
+      "💰 Your balance: " +
+      balance / 10 ** 9 +
+      " SOL" +
+      "\n\n" +
+      "💸 You can buy and sell tokens with this bot.\n\n" +
+      "💸 You can also check your balance and token details.\n\n" +
+      "💸 You can also add a new token to your wallet.\n\n" +
+      "💸 You can also remove a token from your wallet.\n\n" +
+      "💸 You can also check your balance and token details.\n\n"
+  );
 });
 
 // Handle text messages (wallet setup, buy, and sell)
