@@ -8,11 +8,12 @@ A free, open-source Telegram bot for buying and selling tokens on Solana. This b
 - Checking SOL and token balances 
 - Executing buy/sell orders
 - Managing multiple tokens
-
+ 
 Feel free to use, modify and enhance this code! For questions or improvements, please open an issue or contact to @cryptoking11060 on Telegram☎.
 -----------------------
 ## 🚀 Overview
 The **Raydium PumpSwap Sniper Bot** is a high-speed, automated trading bot designed for sniping newly launched tokens on **Raydium**. It leverages **Jito's MEV infrastructure** for faster transaction execution and integrates with **Telegram** for seamless user interaction. This bot allows traders to automatically detect and buy tokens at launch, maximizing their chances of securing profitable entries.
+
 
 ## 🔥 Features
 - **Jito-Powered MEV Transactions**: Faster and more efficient execution to front-run standard transactions.
