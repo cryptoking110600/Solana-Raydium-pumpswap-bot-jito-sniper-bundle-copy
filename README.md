@@ -71,9 +71,6 @@ https://github.com/user-attachments/assets/8bfbcefd-284d-4376-925f-f1fd96dfa70a
 
 
 
-https://github.com/user-attachments/assets/fa08c9af-3115-4209-a323-454c5fb7a528
-
-
 Here's a **Usage Guide** for your **Solana Pump.fun & Raydium Sniper Bot** based on the provided Telegram bot interface.
 
 ---
